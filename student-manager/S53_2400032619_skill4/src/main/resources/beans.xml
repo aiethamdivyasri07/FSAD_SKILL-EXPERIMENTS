@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.klef.skill4.student.Student">
+
+        <!-- Constructor Injection -->
+        <constructor-arg value="2400032619"/>
+        <constructor-arg value="DivyaSri"/>
+        <constructor-arg value="Artificial Intelligence"/>
+        <constructor-arg value="3"/>
+
+        <!-- Setter Injection -->
+        <property name="course" value="AI &amp; Data Science"/>
+        <property name="year" value="2"/>
+
+    </bean>
+
+</beans>
